@@ -13,6 +13,7 @@
           <li><a href="about.html">About Us</a></li>
           <li><a href="portfolio.html">Portfolio</a></li>
           <li><a href="contact.html">Contact</a></li>
+          <li><a href="Whats new.html">Whats new</a></li>
         </ul>
       </nav>
 
@@ -22,7 +23,18 @@
             
             <h1>Altogether better
             <span class="homes">Dream Homes</span> offers a comprehensive range of property services. We are exceptionally strong in residential sales and lettings across London; not only in new homes, but also in corporate and international lettings and relocation.</h1>
+            </div>
+            <br>
+            <br>
+            <div class="brick"> 
+                <img src="brick-country-home.jpg">
+                
+            </div> 
             
+            
+            <br>
+            <br>       
+            <div class="experts">
             <h1>Experts
             We understand the needs of both occupiers and investors and have in-house experts who deal with every aspect of the London property market. We have 3 offices in Prime Central London handling enquiries from local, national and overseas buyers and tenants.</h1>
             
@@ -32,16 +44,19 @@
             <h1>Chartered Surveyors
             We are proud to be regulated by the Royal Institution of Chartered Surveyors (RICS) and we uphold their worldwide reputation for integrity and professionalism. </h1>
             </div>
+
+            <footer class="foot">
+                Designed by Elliot Smith
+            </footer>
     
-    <div class="brick"> 
-        <img src="brick-country-home.jpg">
-        
-    </div>        
+    
 
 
 <style>
 .making {
-    color: red;
+    color: blue;
+    font-style: italic;
+    font-size: 25px;
 }
 .making:hover {
     color: white;
@@ -49,9 +64,19 @@
     transition: color 1s ease-in-out 2ms;
     
 }
+.experts {
+    font-size: 8px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 40px;
+    margin-right: 30px;
+    margin-left: 30px;
+       
+}
 .homes {
-    color: red;
-    
+    color: blue;
+    font-style: italic;
+    font-size: 25px;
 }
 .homes:hover {
     cursor: pointer; 
@@ -59,12 +84,22 @@
     transition: color 1s ease-in-out 2ms;
 }
 
-.brick img {
-    max-width: 50%;
-    height: auto;
-    margin-left: 30%;
+.brick img {    
+    
     box-shadow: 30px 30px 30px rgba(0, 0, 0, 0.5);
-}
+    
+    border-radius: 20px;
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 50vh; 
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+
 .brick img:hover {
                 animation: bounce 1.5s ease-in-out 3ms;}
                 @keyframes bounce {
@@ -82,13 +117,13 @@
 
 
 body {
-    background-color: lightblue;
+    background-color: lightgray;
 }    
 
 .about {
-    font-size: 10px;
+    font-size: 8px;
     font-weight: 400;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     margin-top: 40px;
     margin-right: 30px;
     margin-left: 30px;
@@ -102,7 +137,7 @@ nav {
     margin-left: 30px;
     margin-right: 30px;
     border-radius: 30px;
-    background-color: rgba(249, 67, 67, 0.78);
+    background-color: blue;
     padding-right: 40px;
     
     
@@ -134,7 +169,11 @@ nav {
         font-size: 1.6em;
         transition: color 1.5s ease-in 2ms;
     }    
-        
+     
+    .foot {
+        font-weight: bold;
+        color: blue;
+    }
     
     
 

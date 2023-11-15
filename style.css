@@ -80,7 +80,7 @@ button {
 }
 button:hover{
     font-size: 2em;
-    color: red;
+    color: white;
     transition: color 1s ease-in 2ms;
 }
 .dream {
@@ -93,7 +93,7 @@ button:hover{
     z-index: 1;
     cursor: pointer;    
     opacity: 0; 
-    animation: fadeIn 1.5s ease-in-out forwards; 
+    animation: fadeIn 2s ease-in-out forwards; 
     width: 100%;
     
     justify-content: center;
