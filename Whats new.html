@@ -12,7 +12,7 @@
           <li><a href="about.html">About</a></li>
           <li><a href="portfolio.html">Portfolio</a></li>
           <li><a href="contact.html">Contact</a></li>
-          <li><a href="Whats new.html">Whats new</a></li>
+          
         </ul>
       </nav>
 
@@ -39,6 +39,7 @@
     <br>
     <br>
 
+
     <button id="myButton" class="button" onclick="redirectToPortfolio()">CLICK here for inspiration</button>
     
     
@@ -54,29 +55,37 @@
     cursor: pointer;
     
     
+    
       
     }
 
 nav {
-    margin-bottom: 440px;
-    padding: 50px; /* Add some padding for spacing */
+    
+   
+    padding: 0px; /* Add some padding for spacing */
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 350px;
     background-color: #333;
     position: fixed;
     width: 100%;
+    height: 100px;
     z-index: 1000;
+    margin-top: auto;
+    
     
 }
 
 nav ul {
     list-style-type: none;
     display: inline-flex;
+    
 }
 
 nav ul li {
-    margin: 0;
+    margin: 50px;
+    
     margin-right: 10px; /* Add some margin between list items */
 }
 
@@ -130,18 +139,19 @@ body {
 .container .box span {
     position: absolute;
     color: #fff;
-    font-size: 3.5em;
+    font-size: 3.0em;
     white-space: nowrap;
     text-transform: uppercase;
     background: linear-gradient(90deg, transparent, rgba(0,0,0,0.25), transparent);
     font-weight: 1000;
     line-height: 0.50em;
-    padding: 10px;
-    padding-left: 200px;
+    padding: 0px;
+    padding-left: 250px;
     transform-style: preserve-3d;
     text-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
     transform: translate(-50%, -50%) rotateX(calc(var(--i) * 22.5deg)) translateZ(100px);
-    margin: auto;
+    margin: 0;
+    width: auto;
 }
 
 .container .box span i:nth-child(1) {

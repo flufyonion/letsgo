@@ -120,9 +120,9 @@ button:hover{
     font-size: 1.5em;
     margin: auto;
     position: relative;
-    padding-bottom: 140px;
+    padding-bottom: 0px;
    width: 80%;
-   
+   margin-bottom: 0px;
    justify-content: center;
    text-align: center;
 }
@@ -140,4 +140,55 @@ button:hover{
         font-size: 18px; /* Adjust font size for smaller screens */
         padding-bottom: 0px; 
     
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        
+    }
+    
+    .container .box {
+        transform-style: preserve-3d;
+        animation: animate 25s linear infinite;
+    }
+    
+    @keyframes animate {
+        0% {
+            transform: perspective(1000px) rotateX(0deg) rotate(0deg);
+        }
+        100% {
+            transform: perspective(1000px) rotateX(360deg) rotate(0deg);
+        }
+    }
+    
+    .container .box span {
+        position: absolute;
+        color: #fff;
+        font-size: 3.0em;
+        white-space: nowrap;
+        text-transform: uppercase;
+        background: linear-gradient(90deg, transparent, rgba(0,0,0,0.25), transparent);
+        font-weight: 1000;
+        line-height: 0.50em;
+        padding: 0px;
+        padding-left: px;
+        transform-style: preserve-3d;
+        text-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+        transform: translate(-50%, -50%) rotateX(calc(var(--i) * 22.5deg)) translateZ(80px);
+        margin: 0;
+        width: auto;
+        
+    }
+    
+    .container .box span i:nth-child(1) {
+        font-style: initial;
+        color: #ff246f;
+    }
+    
+    .container .box span i:nth-child(2) {
+        font-style: initial;
+        color: #2453ff;
     }
