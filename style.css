@@ -86,7 +86,6 @@ button:hover{
 .dream {
     color: black;
     margin: auto;
-    padding-top: 20px;
     font-size: 5em;
     font-style: italic;
     font-weight: bold;
@@ -95,7 +94,7 @@ button:hover{
     opacity: 0; 
     animation: fadeIn 2s ease-in-out forwards; 
     width: 100%;
-    padding-bottom: 100px;
+    padding-bottom: 150px;
     justify-content: center;
     text-align: center;
 }
@@ -130,15 +129,16 @@ button:hover{
 
 .foot {
     font-size: 15px;
-    margin: 0;
+    margin-bottom: 0;
     font-weight: bold;
     z-index: 100;
-    background-color: lightblue;
+    background-color: transparent;
+    border: 2px solid black;
 }
 @media (max-width: 768px) 
     .leading {
         
-        padding-bottom: 0px; 
+        
     
     }
 
@@ -146,7 +146,8 @@ button:hover{
         display: flex;
         justify-content: center;
         align-items: center;
-        position: relative;
+        position: flex;
+        margin-bottom: 160px;
         
     }
     
@@ -173,7 +174,7 @@ button:hover{
         background: linear-gradient(90deg, transparent, rgba(0,0,0,0.25), transparent);
         font-weight: 1000;
         line-height: 0.70em;
-        padding: 0px;
+        padding-top: 0px;
         padding-right: 0px;
         transform-style: preserve-3d;
         text-shadow: 0 15px 5px rgba(0, 0, 0, 0.25);
